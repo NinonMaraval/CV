@@ -43,13 +43,6 @@ h2:hover {
   color: black;
 }
 
-#img-avatar {
-  display: flex;
-  justify-content: center;
-  max-width: 40%;
-  border-radius: 40%;
-}
-
 .special-skills-contents h4 {
   font-family: 'Lobster';
   font-size: 30px;
@@ -353,9 +346,6 @@ img {
 }
 
 @media screen and (min-width: 700px) {
-  #img-avatar {
-    max-width: 20%;
-  }
   
   .skills {
     display: flex;
