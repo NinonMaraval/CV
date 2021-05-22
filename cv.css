@@ -68,17 +68,6 @@ h2:hover {
   padding: 60px;
 }
 
-.photo-profil {
-  display: flex;
-  justify-content: center;
-  width: initial;
-}
-
-.photo-profil img {
-  border-radius: 40%;
-  object-fit: cover;
-}
-
 ul {
   display: flex;
   flex-direction: row;
@@ -359,11 +348,6 @@ img {
 
 @media screen and (min-width: 700px) {
   
-  .photo-profil img {
-    max-width: 20vh;
-    border-radius: 40%;
-  }
-
   .skills {
     display: flex;
     justify-content: center;
