@@ -76,6 +76,7 @@ h2:hover {
 
 .photo-profil img {
   border-radius: 40%;
+  object-fit: cover;
 }
 
 ul {
