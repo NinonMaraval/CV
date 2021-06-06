@@ -106,6 +106,10 @@ const frenchEspagnol = 'Espagnol (lu, écrit)';
 const englishEspagnol = 'Spanish: good reading and writing level';
 const frenchPermis = 'Permis B';
 const englishPermis = "Driver's license";
+const frenchContenuProjet5 = 'Todo list ensoleillée et réalisée avec React, ainsi que du local storage.';
+const englishContenuProjet5 = 'A sunny React todo list app, also using local storage. ';
+const frenchStage = "En recherche d'un stage de 4 mois (de début août à fin novembre),n'hésitez pas à me contacter !";
+const englishStage = "I am looking for an internship from August to November, do not hesitate to contact me!";
 
 const btChangeLanguage = document.getElementById('bt-change-language');
 btChangeLanguage.addEventListener('click', function (event) {
@@ -162,9 +166,12 @@ btChangeLanguage.addEventListener('click', function (event) {
   const myAnglais = document.querySelector('#anglais');
   const myEspagnol = document.querySelector('#espagnol');
   const myPermis = document.querySelector('#permis');
+  const myContenuProjet5 = document.querySelector ('#contenu-projet5');
+  const myStage = document.querySelector ('#stage');
 
   if (myGreetings.innerHTML === frenchGreetings) {
     myReconversion.innerHTML = englishPres;
+    myStage.innerHTML = englishStage;
     myGreetings.innerHTML = englishGreetings;
     myTitle.innerHTML = englishTitle;
     myPres.innerHTML = englishAncrePres;
@@ -217,10 +224,12 @@ btChangeLanguage.addEventListener('click', function (event) {
     myAnglais.innerHTML = englishAnglais;
     myEspagnol.innerHTML = englishEspagnol;
     myPermis.innerHTML = englishPermis;
+    myContenuProjet5.innerHTML = englishContenuProjet5;
     btChangeLanguage.src = './images/flag.png';
   } else {
     myReconversion.innerHTML = frenchPres;
     myGreetings.innerHTML = frenchGreetings;
+    myStage.innerHTML = frenchStage;
     myTitle.innerHTML = frenchTitle;
     myPres.innerHTML = frenchAncrePres;
     myCompetences.innerHTML = frenchAncreCptces;
@@ -271,6 +280,7 @@ btChangeLanguage.addEventListener('click', function (event) {
     myAnglais.innerHTML = frenchAnglais;
     myEspagnol.innerHTML = frenchEspagnol;
     myPermis.innerHTML = frenchPermis;
+    myContenuProjet5.innerHTML = frenchContenuProjet5;
     btChangeLanguage.src = './images/UK.png';
   }
 });
