@@ -141,6 +141,7 @@ ul {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+  transition-duration: 500ms;
 }
 
 .school-contents {
@@ -220,6 +221,16 @@ ul {
   flex-direction: column;
   justify-content: center;
   background-image: url('./images/galaxy.jpeg');
+  background-size: cover;
+  width: 80%;
+  margin: 20 20 20 20;
+}
+
+#projet5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('./images/sunflower.jpeg');
   background-size: cover;
   width: 80%;
   margin: 20 20 20 20;
@@ -328,6 +339,7 @@ img {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
+  margin: 25px 0;
 }
 
 .column:first-child {
@@ -351,7 +363,6 @@ img {
 }
 
 @media screen and (min-width: 700px) {
-  
   .skills {
     display: flex;
     justify-content: center;
@@ -402,6 +413,13 @@ img {
 
   #projet4 {
     background-image: url('./images/galaxy.jpeg');
+    background-size: cover;
+    width: 30%;
+    margin: 20 20 20 20;
+  }
+
+  #projet5 {
+    background-image: url('./images/sunflower.jpeg');
     background-size: cover;
     width: 30%;
     margin: 20 20 20 20;
