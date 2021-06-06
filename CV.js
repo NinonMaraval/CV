@@ -243,7 +243,7 @@ btChangeLanguage.addEventListener('click', function (event) {
     myTitreProjet1.innerHTML = frenchTitreProjet1;
     myContenuProjet1.innerHTML = frenchContenuProjet1;
     myTitreProjet2.innerHTML = frenchTitreProjet2;
-    myContenuProjet2.innerHTML = frenchTitreProjet2;
+    myContenuProjet2.innerHTML = frenchContenuProjet2;
     myTitreProjet3.innerHTML = frenchTitreProjet3;
     myContenuProjet3.innerHTML = frenchContenuProjet3;
     myContenuProjet4.innerHTML = frenchContenuProjet4;
