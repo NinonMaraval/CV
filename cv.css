@@ -236,6 +236,26 @@ ul {
   margin: 20 20 20 20;
 }
 
+#projet6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('./images/fiverr.jpeg');
+  background-size: cover;
+  width: 80%;
+  margin: 20 20 20 20;
+}
+
+#projet7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('./images/kine.png');
+  background-size: cover;
+  width: 80%;
+  margin: 20 20 20 20;
+}
+
 .disabled {
   color: white;
   font-style: italic;
@@ -420,6 +440,20 @@ img {
 
   #projet5 {
     background-image: url('./images/sunflower.jpeg');
+    background-size: cover;
+    width: 30%;
+    margin: 20 20 20 20;
+  }
+
+  #projet6 {
+    background-image: url('./images/fiverr.jpeg');
+    background-size:cover;
+    width: 30%;
+    margin: 20 20 20 20;
+  }
+
+  #projet7 {
+    background-image: url('./images/kine.png');
     background-size: cover;
     width: 30%;
     margin: 20 20 20 20;

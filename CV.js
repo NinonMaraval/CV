@@ -110,6 +110,10 @@ const frenchContenuProjet5 = 'Todo list ensoleillée et réalisée avec React, a
 const englishContenuProjet5 = 'A sunny React todo list app, also using local storage. ';
 //const frenchStage = "En recherche d'un stage de 4 mois (de début août à fin novembre),n'hésitez pas à me contacter !";
 //const englishStage = "I am looking for an internship from August to November, do not hesitate to contact me!";
+const frenchContenuProjet6 = '72h pour créer un site web visant à améliorer l’expérience de la communauté freelance de Fiverr : nous avons choisi de leur permettre de se retrouver au sein d’espaces de coworking.';
+const englishContenuProjet6 = '72 hours to develop a solution to improve the community experience of Fiverr freelancers. We chose to give them the opportunity to brainstorm in coworking hubs. '
+const frenchContenuProjet7 = "Projet client à 5 personnes, pour créer une plateforme d'échange et de partage de connaissances pour les kinésithérapeutes. Avec React, NodeJS/Express, SQL.";
+const englishContenuProjet7 = 'Customer project with 5 teammates, using React, NodeJS, Express and SQL, to create a platform where physiotherapists can exchange information and share their knowledge.'
 
 const btChangeLanguage = document.getElementById('bt-change-language');
 btChangeLanguage.addEventListener('click', function (event) {
@@ -167,6 +171,8 @@ btChangeLanguage.addEventListener('click', function (event) {
   const myEspagnol = document.querySelector('#espagnol');
   const myPermis = document.querySelector('#permis');
   const myContenuProjet5 = document.querySelector ('#contenu-projet5');
+  const myContenuProjet6 = document.querySelector ('#contenu-projet6');
+  const myContenuProjet7 = document.querySelector ('#contenu-projet7');
   //const myStage = document.querySelector ('#stage');
 
   if (myGreetings.innerHTML === frenchGreetings) {
@@ -225,6 +231,8 @@ btChangeLanguage.addEventListener('click', function (event) {
     myEspagnol.innerHTML = englishEspagnol;
     myPermis.innerHTML = englishPermis;
     myContenuProjet5.innerHTML = englishContenuProjet5;
+    myContenuProjet6.innerHTML = englishContenuProjet6;
+    myContenuProjet7.innerHTML = englishContenuProjet7;
     btChangeLanguage.src = './images/flag.png';
   } else {
     myReconversion.innerHTML = frenchPres;
@@ -281,6 +289,8 @@ btChangeLanguage.addEventListener('click', function (event) {
     myEspagnol.innerHTML = frenchEspagnol;
     myPermis.innerHTML = frenchPermis;
     myContenuProjet5.innerHTML = frenchContenuProjet5;
+    myContenuProjet6.innerHTML = frenchContenuProjet6;
+    myContenuProjet7.innerHTML = frenchContenuProjet7;
     btChangeLanguage.src = './images/UK.png';
   }
 });
