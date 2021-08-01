@@ -114,6 +114,8 @@ const frenchContenuProjet6 = '72h pour créer un site web visant à améliorer l
 const englishContenuProjet6 = '72 hours to develop a solution to improve the community experience of Fiverr freelancers. We chose to give them the opportunity to brainstorm in coworking hubs. '
 const frenchContenuProjet7 = "Projet client à 5 personnes, pour créer une plateforme d'échange et de partage de connaissances pour les kinésithérapeutes. Avec React, NodeJS/Express, SQL.";
 const englishContenuProjet7 = 'Customer project with 5 teammates, using React, NodeJS, Express and SQL, to create a platform where physiotherapists can exchange information and share their knowledge.'
+const frenchContenuProjet8 = "Projet personnel de deux jours pour valider la formation de la Wild. 'Carnet' de plantes pour suivre l'entretien de chacune de mes résidentes ! Réalisé avec React, NodeJS/Express, SQL."
+const englishContenuProjet8 = "2 days personal project to complete my dev training. A plants handbook to facilitate the maintenance of all my green housemates! Made with React, NodeJS/Express and SQL. "
 
 const btChangeLanguage = document.getElementById('bt-change-language');
 btChangeLanguage.addEventListener('click', function (event) {
@@ -173,6 +175,7 @@ btChangeLanguage.addEventListener('click', function (event) {
   const myContenuProjet5 = document.querySelector ('#contenu-projet5');
   const myContenuProjet6 = document.querySelector ('#contenu-projet6');
   const myContenuProjet7 = document.querySelector ('#contenu-projet7');
+  const myContenuProjet8 = document.querySelector ('#contenu-projet8');
   //const myStage = document.querySelector ('#stage');
 
   if (myGreetings.innerHTML === frenchGreetings) {
@@ -233,6 +236,7 @@ btChangeLanguage.addEventListener('click', function (event) {
     myContenuProjet5.innerHTML = englishContenuProjet5;
     myContenuProjet6.innerHTML = englishContenuProjet6;
     myContenuProjet7.innerHTML = englishContenuProjet7;
+    myContenuProjet8.innerHTML = englishContenuProjet8;
     btChangeLanguage.src = './images/flag.png';
   } else {
     myReconversion.innerHTML = frenchPres;
@@ -291,6 +295,7 @@ btChangeLanguage.addEventListener('click', function (event) {
     myContenuProjet5.innerHTML = frenchContenuProjet5;
     myContenuProjet6.innerHTML = frenchContenuProjet6;
     myContenuProjet7.innerHTML = frenchContenuProjet7;
+    myContenuProjet8.innerHTML = frenchContenuProjet8;
     btChangeLanguage.src = './images/UK.png';
   }
 });
