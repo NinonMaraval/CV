@@ -96,6 +96,10 @@ ul {
   padding: 0 10%;
 }
 
+.logo-skills img {
+  margin: 5px;
+}
+
 .column {
   border-left: 1px solid #e6ecf8;
   border-right: 1px solid #e6ecf8;
