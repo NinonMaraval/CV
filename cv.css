@@ -3,8 +3,10 @@
 body {
   font-family: 'Dosis', sans-serif;
   font-size: 17px;
-  margin: 0;
   padding: 0;
+  width: 80%;
+  margin: 0 auto;
+  border: 0.5px solid rgba(111, 158, 197, 0.24);
 }
 
 .menu ul {
